@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type='text/css' rel='stylesheet' href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <title>Meme Assessment</title>
+</head>
+
+<body>
+    <header>
+        <img class='photos' src='https://i.imgflip.com/55844.jpg'>
+        <h1>Meme Creator</h1>
+        <img class='photos' src='https://indianmemetemplates.com/storage/Awkward-black-kid.jpg'>
+    </header>
+    <div id='container'>
+        <form action="">
+            <div>
+                <label for='url'>Enter a photo link
+                    <input type='url' name='url' placeholder="https://www.photo.com" id='photoInput' required>
+                </label>
+            </div>
+            <div>
+                <label for="topText"> Top Text
+                    <input name='topText' type="text" id='topText' placeholder="type text here">
+                </label>
+            </div>
+            <div>
+                <label for='bottomText'> Bottom Text
+                    <input type="text" name='bottomText' id='bottomText' placeholder="type text here">
+                </label>
+            </div>
+            <div>
+                <input type="submit" name='submit' id='submitBtn'>
+
+            </div>
+        </form>
+    </div>
+    <div id='memeBox'>
+    </div>
+    <script src="https://kit.fontawesome.com/b3c8d38070.js" crossorigin="anonymous"></script>
+    <script src = 'app.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/background-with-geometric-shapes-neon-style_23-2148237987.jpg?size=626&ext=jpg');
+  background-size: cover;
+}
+header {
+display: flex;
+margin-top: 40px;
+}
+
+.photos {
+  width: 200px;
+  margin: auto;
+  height: 150px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: #CC1061
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Lacquer', sans-serif;
+}
+
+#container {
+  text-align: center;
+  background-color: #CC1061;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 50px;
+  color: #F5F8FC;
+}
+
+#submitBtn {
+  font-family: 'Lacquer', sans-serif;
+  font: 26px;
+  width: 60px;
+  border-radius: 15px; 
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#memeBox {
+  position: relative;
+  display: flex;
+}
+
+.imgDiv {
+  position: relative;
+  margin-left: 10px;
+}
+
+.topDiv {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  text-align: center;
+}
+
+.bottomDiv {
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  text-align: center;
+}
+
+#deleteBtn {
+  border: red;
+  color:black;
+  font-size: 26px;
+  background: red;
+  position: relative;
+  
+  
+}
